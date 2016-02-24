@@ -5,7 +5,7 @@
 * The store is a set of functionality that is connected to one component.
 
 ## Example
-* You have a react component that has a click handler. Every time you click it, it shoots out an action that has a payload. This fires an action in the 'app actions folder'. It then wraps up this payload inside an object that
+* You have a react component that has a click handler. Evcdery time you click it, it shoots out an action that has a payload. This fires an action in the 'app actions folder'. It then wraps up this payload inside an object that
 
 
 ## THE Flow
