@@ -5,3 +5,6 @@
 
 ##Comands Related To Gunny
 * `bundle exec treb sand deploy`
+
+## Deploying:
+* 
