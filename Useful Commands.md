@@ -4,6 +4,4 @@
 * `webpack -p` When you're running webpack on master before production
 * `bundle exec rake assets:precompile`
 * Details = for objects, itemse = for arrays 
-* PB_CLIENT_TYPE=zmq bundle exec rails server --binding=0.0.0.0
-* 
-at
+* `PB_CLIENT_TYPE=zmq bundle exec rails server --binding=0.0.0.0`

@@ -13,4 +13,57 @@
 
 if you get a weird error: `so `eslint src` and then `babel src --out-dir dist`
 
-`
+
+
+```javascript
+[
+  {
+    name: 'app/mobile/smoke/tour',
+    id: 29850982
+  },
+  {
+    name: 'app/mobile/sanity/flight',
+    id: 2958091
+  },
+  {
+    name: 'product/data/sales/scripts',
+    id: 938294
+  },
+  {
+    name: 'product/marketing/stable/aggregation',
+    id: 38509285
+  },
+  {
+    name: 'engineering/oss/styles/compile',
+    id: 3985098
+  }
+  
+]
+
+```
+[
+  {
+    name: 'app',
+    children: 
+    [
+      {
+        name: 'mobile',
+        children: 
+        [
+          {
+            name: 'sanity',
+            children: ['tour'] //tour and any other ones that have the same parents
+          },
+          {
+            name: 'sales',
+            children: ''
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'product',
+    children: '' //etc
+  }
+]
