@@ -1,21 +1,10 @@
-## RobinHood
-
-```javascript
-_renderFunnel () {
-  const funnelData = [
-    { title: 'Users Enrolled', value: this.props.campaign.offer_count },
-    { title: 'Offers Viewed', value: this.props.campaign.view_count },
-    { title: 'Offers Clicked', value: this.props.campaign.click_count }
-  ];
-```
-
 ## Deploying
 
 * Make a new release in Sabatoge
 * Link PR and Issues
-* Brief description and to test
+* Brief description and to test 
 * Put :octocat: on it - this means we haven't merged our code yet,
-* Wait for a :shipit:
+* Wait for a :shipit: 
 * Change :octocat: to :rocket:
 * merge
 * Pull Down changes
@@ -30,7 +19,7 @@ _renderFunnel () {
 * Commit changes and push back up 
 
 * Now we're ready to deploy Longbow
-* `bundle exec treb sand deploy` - deploys it to sand
+* `bundle exec treb sand deploy` - deploys it to sand 
 * test it (while you're deploying to QA)
 * Pull down QA,
 * deploy to qa using `bundle exec treb qa deploy`
